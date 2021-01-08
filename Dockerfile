@@ -1,4 +1,4 @@
-FROM node:14.15.3-slim
+FROM node:14.15.4-slim
 
 # install packages
 RUN npm i -g markdownlint-cli
