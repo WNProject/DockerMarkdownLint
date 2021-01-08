@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+    rebase-strategy: auto
+    labels:
+      - auto
+      - dependencies
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
+    rebase-strategy: auto
+    labels:
+      - auto
+      - dependencies
+    ignore:
+      - dependency-name: node
+        versions: ['>= 15.x'] # currently 14.x is the LTS
