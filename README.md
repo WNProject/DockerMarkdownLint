@@ -1,7 +1,7 @@
 # Markdown Lint
 
 [![License]](LICENSE)
-[![Build][Build Badge]][Build Workflow]
+[![CI][CI Badge]][CI Workflow]
 
 Docker container containing all needed tools to run **Markdown Lint**. Each
 container will contain only one version of the **Markdown Lint** but will
@@ -36,5 +36,5 @@ docker build -t markdown-lint .
 
 <!-- external links -->
 [License]: https://img.shields.io/github/license/WNProject/DockerMarkdownLint?label=License
-[Build Badge]: https://github.com/WNProject/DockerMarkdownLint/workflows/Build/badge.svg?branch=main
-[Build Workflow]: https://github.com/WNProject/DockerMarkdownLint/actions?query=workflow%3ABuild+branch%3Amain
+[CI Badge]: https://github.com/WNProject/DockerMarkdownLint/actions/workflows/ci.yml/badge.svg?branch=main
+[CI Workflow]: https://github.com/WNProject/DockerMarkdownLint/actions/workflows/ci.yml?query=branch%3Amain
